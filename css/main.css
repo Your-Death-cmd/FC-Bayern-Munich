@@ -1,26 +1,34 @@
 body {
-    /* background-color: black; */
+    background-color: black;
 }
 .header {
-    
+    display:flex;
+    justify-content:space-between;
+
 }
 .logo {
     display: block;
     width: 50px;
     height: 50px;
-
+    display:flex;
 }
-
+.logo__title {
+    flex-shrink:0;
+}
 .logo__img {
     width: 100%; 
     height: 100%;
     display: block;
+    flex-shrink:0;
+
 }
 .menu {
+    display:flex;
 
 }
 .menu__list {
-
+    display:flex;
+    justify-content:space-between;
 }
 .menu__item {
 
@@ -28,12 +36,16 @@ body {
 .anker-link {
 
 }
-language-mod {
+.language-mod {
 
 }
-.language-switch-button {
+.control-button-wrapper {
+    display:flex;
+    
 
 }
-.play-button {
-
+.night-mod__button {
+    width: 20px;
+    height: 20px;
+    background-color:white;
 }
