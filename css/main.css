@@ -52,20 +52,20 @@ body {
     padding-bottom: 6px; 
 }
 
-.anker-link:before {
+.anker-link::before {
     content: "";
-    position: absolute; 
-    bottom: 0; 
+    position: absolute;
+    bottom: 0;
     left: 0;
     width: 100%;
     height: 2px;
     background-color: red;
     display: none;
 }
-.anker-link--active:before {
+
+.anker-link--active::before {
     display: block;
 }
-    
 
 .language-mod {
     background-color: rgb(232, 232, 232);
@@ -127,23 +127,3 @@ body {
         flex-direction: column;
     }
 }
-
-
-/* .parent {
-    position: relative; 
-}
-.child {
-}
-.child--1 {
-    background-color:black;
-}
-.child--2 {
-    position: absolute;
-    background-color: red;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.child--3 {
-    background-color:yellow
-} */
