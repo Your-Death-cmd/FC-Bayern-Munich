@@ -8,3 +8,4 @@ burger.addEventListener("click", function(){
 nightModButton.addEventListener("click", function(){
     document.body.classList.toggle("night")
 })
+
